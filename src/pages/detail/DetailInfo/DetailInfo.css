@@ -1,0 +1,42 @@
+.detail-info {
+  width: 60vw;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.detail-info__name {
+  color: black;
+  font-size: 26px;
+  padding-bottom: 4px;
+}
+.detail-info__address {
+  justify-content: flex-start;
+  gap: 0.5rem;
+  color: black;
+  font-weight: 600;
+}
+
+.detail-info__distance {
+  font-size: 18px;
+  color: #036fce;
+  font-weight: 600;
+  padding: 4px 0px;
+}
+
+.detail-info__price {
+  color: #37861f;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.detail-info__button {
+  height: fit-content;
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: #036fce;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 0;
+}

@@ -1,0 +1,101 @@
+.home {
+  background-color: rgb(4, 4, 150);
+  width: 100vw;
+}
+.header {
+  width: 60vw;
+  background-color: rgb(4, 4, 150);
+  color: aliceblue;
+  gap: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+  left: 20%;
+}
+.header h1 {
+  padding-bottom: 2rem;
+  color: aliceblue;
+  font-size: xx-large;
+}
+.header button {
+  background-color: rgb(14, 132, 201);
+  color: aliceblue;
+  margin: 3rem auto;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  border: 0;
+}
+
+.header-form {
+  display: grid;
+  grid-template-columns: 25% 35% 33% 6%;
+  height: 50px;
+  gap: 2px;
+  background-color: white;
+  border: 2px solid rgb(240, 173, 97);
+  border-radius: 5px;
+  position: absolute;
+  width: 60vw;
+  bottom: -25px;
+  left: 0;
+}
+.header-form section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  color: rgb(122, 121, 121);
+  border: 0;
+}
+
+.header-form input {
+  border: 0px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.number {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2px;
+  color: rgb(122, 121, 121);
+  border: 0;
+}
+.number input {
+  width: 100%;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+.number i {
+  padding-right: 10px;
+}
+.number p {
+  font-size: 12px;
+  padding-right: 10px;
+}
+.header-form .search {
+  background-color: rgb(14, 132, 201);
+  color: aliceblue;
+  font-weight: 600;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  padding: 3px;
+  height: 2rem;
+  width: auto;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.date {
+  background-color: aliceblue;
+  position: absolute;
+  top: 3.5rem;
+  left: 28%;
+  z-index: 1;
+}
+
+.date button {
+  margin: 3px;
+}

@@ -1,0 +1,10 @@
+.type-image {
+  border-radius: 20px;
+  width: 12rem;
+  height: 12rem;
+}
+.type-name {
+  font-size: large;
+  font-weight: 700;
+  color: black;
+}

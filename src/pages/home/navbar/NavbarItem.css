@@ -1,0 +1,12 @@
+.navbar-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+.navbar-item.active {
+  border-radius: 25px;
+  border: 1px solid aliceblue;
+}

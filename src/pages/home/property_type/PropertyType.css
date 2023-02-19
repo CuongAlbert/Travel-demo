@@ -1,0 +1,18 @@
+.type {
+  width: 60vw;
+  margin: 40px auto;
+}
+
+.type-text {
+  font-size: xx-large;
+  font-weight: 700;
+  left: 20%;
+  margin: 40px auto;
+}
+.type-property {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+  align-items: center;
+  gap: 20px;
+}

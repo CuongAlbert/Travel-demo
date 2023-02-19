@@ -1,0 +1,49 @@
+.detail-description {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  width: 60vw;
+  margin: 2rem auto;
+  gap: 1rem;
+}
+
+.detail-description__title {
+  font-size: 24px;
+  color: black;
+}
+
+.detail-description__text {
+  color: black;
+  font-weight: 500;
+}
+
+.detail-description__note {
+  background-color: rgb(217, 240, 232);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.detail-description__note__title {
+  font-size: 18px;
+  color: rgb(85, 85, 85);
+}
+
+.detail-description__note__text {
+  color: black;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.detail-description__note__price {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+.detail-description__button {
+  width: 100%;
+  background-color: #036fce;
+  color: aliceblue;
+  height: 40px;
+  border-radius: 6px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 600;
+}

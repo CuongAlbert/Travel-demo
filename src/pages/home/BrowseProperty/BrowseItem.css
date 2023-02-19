@@ -1,0 +1,34 @@
+.browse-item {
+  display: flex;
+  flex-direction: column;
+}
+.browse-image {
+  width: 15rem;
+  height: 15rem;
+}
+.browse-name {
+  font-size: 17px;
+  font-weight: 700;
+}
+.browse-price {
+  font-size: 17px;
+  font-weight: 600;
+}
+.browse-feedback {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.browse-rating {
+  background-color: rgb(4, 4, 150);
+  color: aliceblue;
+  padding: 4px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.browse-comment {
+  font-weight: 600;
+  font-size: 15px;
+}
